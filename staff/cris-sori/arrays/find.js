@@ -1,28 +1,22 @@
-// usando el map, crea un nuevo array, con cada uno de los numeros multiplicado por 2
+// usando el find, encuentra el primer numero mayor a 20
 
 var numbers = [10, 20, 30, 40, 50, 60]
 
-var numbersx2 = numbers.map(function (number) {
-    return number * 2
-})
-
-console.log(numbersx2)
-
 // --------------------------------------------------
 
-// crea un nuevo array, con la longitud de cada uno de los strings
+// encuentra el primer string que contenga una 'u'
 
 var strings = ['hola', 'mundo', 'a', 'todos']
 
 // --------------------------------------------------
 
-// crea un nuevo array, con el resto de 2 de cada uno de los numeros
+// encuentra el primer numero impar
 
-var numbers2 = [12, 40, 6, 7, 24]
+var numbers2 = [12, 40, 6, 7, 13]
 
 // --------------------------------------------------
 
-// crea un nuevo array, que contenga los emails de los usuarios como string
+// encuentra el usuario con email 'wendy@darling.com'
 
 var users = [
     { name: 'pepito', email: 'pepito@grillo.com' },
@@ -31,15 +25,9 @@ var users = [
     { name: 'pinocho', email: 'pin@ocho.com' },
 ]
 
-var emails = users.map(function (user) {
-    return user.email
-})
-
-console.log(emails)
-
 // --------------------------------------------------
 
-// crea un nuevo array, que contenga la ciudad de los usuarios como string
+// encuentra el usuario con la ciudad 'Barcelona'
 
 var users2 = [
     {
@@ -67,12 +55,3 @@ var users2 = [
         }
     }
 ]
-
-var cities = users2.map(function (user) {
-    return user.information.city
-})
-
-console.log(cities)
-
-// var myFunction = () => { }
-// var myFunction2 = function () { }
